@@ -50,8 +50,8 @@ public class Main {
 
 		System.out.println("O resultado da operação é: " + result);
 
-		sc.close();
-		
 		main(args);
+		
+		sc.close();
 	}
 }
