@@ -1,29 +1,29 @@
 package calculadorajava;
 
 import java.util.Scanner;
-import calculadorajava.Metódos;
+import calculadorajava.MetÃ³dos;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Metódos resultado = new Metódos();
+		MetÃ³dos resultado = new MetÃ³dos();
 
 		Scanner sc = new Scanner(System.in);
 		double num1, num2, result = 0;
 		int selecao;
 
-		System.out.println("Digite o primeiro número: ");
+		System.out.println("Digite o primeiro nÃºmero: ");
 		num1 = sc.nextDouble();
 
-		System.out.println("Digite o segundo número: ");
+		System.out.println("Digite o segundo nÃºmero: ");
 		num2 = sc.nextDouble();
 
-		System.out.println("#####Selecione uma operação#####");
+		System.out.println("#####Selecione uma operaÃ§Ã£o#####");
 		System.out.println("[1] - SOMA");
-		System.out.println("[2] - SUBTRAÇÃO");
-		System.out.println("[3] - MULTIPLICAÇÃO");
-		System.out.println("[4] - DIVISÃO");
-		System.out.print(">>>>>>>>>Digite sua opção: ");
+		System.out.println("[2] - SUBTRAÃ‡ÃƒO");
+		System.out.println("[3] - MULTIPLICAÃ‡ÃƒO");
+		System.out.println("[4] - DIVISÃƒO");
+		System.out.print(">>>>>>>>>Digite sua opÃ§Ã£o: ");
 		selecao = sc.nextInt();
 
 		switch (selecao) {
@@ -44,12 +44,14 @@ public class Main {
 			break;
 
 		default:
-			System.out.println("Escolha apenas uma das opções.");
+			System.out.println("Escolha apenas uma das opÃ§Ãµes.");
 
 		}
 
-		System.out.println("O resultado da operação é: " + result);
+		System.out.println("O resultado da operaÃ§Ã£o Ã©: " + result);
 
+		sc.close();
+		
 		main(args);
 	}
 }
