@@ -1,4 +1,4 @@
-package calculadorajava;
+package CalculadoraJavaSimples;
 
 public class Metódos {
 

@@ -1,7 +1,7 @@
-package calculadorajava;
+package CalculadoraJavaSimples;
 
 import java.util.Scanner;
-import calculadorajava.Metódos;
+import CalculadoraJavaSimples.Metódos;
 
 public class Main {
 
