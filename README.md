@@ -10,13 +10,15 @@ Estou inteiramente aberto à críticas e opiniões, bem como a qualquer outra co
   
 <h2>💻 Built with</h2>
 
-Technologies used in this repository:
+Technologies and Design Patterns  used in this repository:
 
 *   Swing
 *   JavaFX
 *   Spring Boot
 *   JPA
 *   JDBC   
+*   DAO
+*   JUnit
 
 <h2>💻 Front-end</h2>
 
