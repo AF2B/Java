@@ -18,6 +18,7 @@ Technologies and Design Patterns  used in this repository:
 *   JPA
 *   JDBC   
 *   DAO
+*   JUnit
 
 <h2>💻 Front-end</h2>
 
